@@ -4,6 +4,26 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Get started
 
+# 👨‍⚕️ CareConnect – Appointment Booking App
+
+CareConnect is a basic mobile application that allows patients to view a list of doctors, search for them by name or specialization, and book an appointment by selecting an available time slot. The app is built using modern technologies like React Native, Expo, and React Navigation.
+
+## 🚀 Key Features
+
+- **Doctor Listing:** Browse a comprehensive list of doctors in a clean and intuitive UI.
+- **Search Functionality:** Filter doctors instantly by their name or specialization.
+- **Doctor Details:** Tap on any doctor to view their detailed profile, including experience and ratings.
+- **Appointment Booking:** Select from static time slots to book a new appointment.
+- **Local Storage:** Booking data is persisted locally on the device using `AsyncStorage`.
+- **Confirmation Screen:** A dedicated screen provides a clear confirmation of a successful booking.
+
+## 🛠️ Technology Stack
+
+- **React Native (Expo CLI):** For cross-platform mobile application development.
+- **React Navigation:** To manage the navigation flow between different screens.
+- **AsyncStorage:** Used for local persistence of booking data, ensuring data remains even after the app is closed.
+- **TypeScript:** To ensure type-safety and improve code quality and maintainability.
+
 1. Install dependencies
 
    ```bash
